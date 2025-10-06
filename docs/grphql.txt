@@ -1,0 +1,23 @@
+GraphQL is a query language  - wait what a query language - like SQL is a query language for Relational Databases (RDBMS)
+
++ GraphQL is runtime for APIs - wait what a runtime env - for APIs
+
++ developed by "Facebook" 🤩
+
+
+- allow clients to send what data tehy need within a nested datastructure, all in a single request
+
+- efficent for clients to get all data in one request - no need to send multiple requests
+
+
+- queries - request for data
+ it specifies the field, that the client wants to retrieve - as well as any arguments that are required
+
+- mutations - request to create, modify, delete data
+ it also gets fields or body
+
+- schema - is a contract b|w a client & server
+  it defines the type of data, that can be queried or mutatated
+  as well as the relationships b|w those types
+
+- Schema is usually defined using GrphQL SDL
